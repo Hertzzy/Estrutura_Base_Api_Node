@@ -4,21 +4,34 @@
 
 <p align="left">Here I will show you step by step how to create an api with node.js</p>
 
-<p align="left">Some dependencies must be installed using the npm package to facilitate our use and creation</p>
+### Setup de ambiente:
 
-<p align="left">npm i bcryptjs</p>
-<p align="left">npm i body-parser</p>
-<p align="left">npm i dotenv</p>
-<p align="left">npm i eslint</p>
-<p align="left">npm i express</p>
-<p align="left">npm i init</p>
-<p align="left">npm i jsonwebtoken</p>
-<p align="left">npm i mysql2</p>
-<p align="left">npm i nodemon</p>
-<p align="left">npm i path</p>
-<p align="left">npm i pg</p>
-<p align="left">npm i sequelize</p>
-<p align="left">npm i uuid</p>
-<p align="left">npm i sequelize-cli</p>
+- [Node LTS](https://nodejs.org/en)
+- [Npm 9.5.0](https://docs.npmjs.com/cli/v6/commands/npm-install)
+- Some dependencies must be installed using the _npm_ package to facilitate our use and creatio
 
+```js
+npm init   
+npm install
+npm i bcryptjs
+npm i body-parser
+npm i dotenv
+npm i eslint
+npm i express
+npm i init
+npm i jsonwebtoken
+npm i mysql2
+npm i nodemon
+npm i path
+npm i pg
+npm i sequelize
+npm i uuid
+npm i sequelize-cli
+```
 ###
+
+### Executing API
+
+- _npm run start_
+- API rodando na porta http://localhost:3000
+- Pronto 🎉
